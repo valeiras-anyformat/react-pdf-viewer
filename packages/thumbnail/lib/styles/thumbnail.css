@@ -1,0 +1,166 @@
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_34a2d621 {
+    /* Center the canvas */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take the full size */
+    height: 100%;
+    width: 100%;
+
+    /* It's used when the cover is placed inside a `min-height` container */
+    min-height: inherit;
+}
+
+.rpv_6f09fae9 {
+    /* Center the spinner */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take the full size */
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_34f6d0c0 {
+    /* Center the spinner */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take the full size */
+    height: 100%;
+    width: 100%;
+
+    min-height: inherit;
+}
+
+.rpv_34f62bc5 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_87cfa5a9 {
+    align-items: center;
+    box-shadow:
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_fcb6421e {
+    overflow: auto;
+    padding: 0.5rem;
+}
+.rpv_5d99636c {
+    direction: rtl;
+}
+.rpv_43a01ce2 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.rpv_78f00fb4 {
+    height: 100%;
+}
+
+.rpv_8b9d9a73 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.rpv_f5b5d58f:hover .rpv_db36b756,
+.rpv_c390af68:hover .rpv_db36b756 {
+    background-color: hsl(var(--rpv-accent));
+}
+
+.rpv_db36b756 {
+    cursor: pointer;
+    &:focus {
+        outline: 0;
+    }
+}
+
+/* Spacing between items */
+.rpv_806cf3e,
+.rpv_959661e5 {
+    padding: 0.5rem;
+}
+
+.rpv_702f252c,
+.rpv_a72b4d0a {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.rpv_f31a6edd,
+.rpv_3e3a0c9f {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+/* Hover state */
+.rpv_806cf3e:hover,
+.rpv_959661e5:hover {
+    background-color: hsl(var(--rpv-accent));
+}
+
+/* Selected state */
+.rpv_4a6d5811 {
+    background-color: hsl(var(--rpv-accent));
+}
+
+.rpv_8bc1cb11 {
+    font-size: 0.75em;
+    text-align: center;
+    padding: 0.25rem;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_16d088e5 {
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_3031ee2f {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}

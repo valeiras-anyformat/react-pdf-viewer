@@ -1,0 +1,127 @@
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_62cd0cf7 {
+    align-items: center;
+    color: hsl(var(--rpv-foreground));
+    cursor: pointer;
+    display: flex;
+    padding-bottom: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.25rem;
+
+    &:focus {
+        background-color: hsl(var(--rpv-accent));
+        outline: 0;
+    }
+
+    &:hover {
+        background-color: hsl(var(--rpv-accent));
+        color: hsl(var(--rpv-accent-foreground));
+    }
+}
+
+.rpv_f63d6438 {
+    /* Center the icon */
+    align-items: center;
+    display: flex;
+    height: 1rem;
+    margin-right: 0.25rem;
+    width: 1rem;
+}
+
+.rpv_f76accf4 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-decoration: none;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_9977cbd7 {
+    list-style-type: none;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_ebc43488 {
+    list-style-type: none;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_ebc2fefd {
+    align-items: center;
+    display: flex;
+    padding-bottom: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.25rem;
+}
+
+.rpv_197eecbe {
+    /* Center the icon */
+    align-items: center;
+    display: flex;
+    height: 1rem;
+    margin-right: 0.25rem;
+    width: 1rem;
+}
+
+.rpv_8d331bae {
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-decoration: none;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_151ef427 {
+    height: 100%;
+    overflow: auto;
+    padding: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+}
+.rpv_dd1f88c3 {
+    direction: rtl;
+}
+
+.rpv_2f6be5b {
+    height: 100%;
+    overflow: auto;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+.rpv_e7d3220f {
+    direction: rtl;
+}

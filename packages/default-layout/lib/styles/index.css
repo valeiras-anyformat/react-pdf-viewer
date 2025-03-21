@@ -1,0 +1,1041 @@
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_a85ddeb {
+    display: flex;
+    border-color: hsl(var(--rpv-border));
+}
+
+.rpv_306d3634 {
+    border-color: transparent;
+    /* Absolute position */
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    /* Size */
+    width: 12rem;
+
+    /* Display it on top of pages */
+    z-index: 1;
+}
+
+.rpv_903d01ff {
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.rpv_903d187f {
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+@media (min-width: 768px) {
+    .rpv_306d3634 {
+        width: 16rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .rpv_306d3634 {
+        background: inherit;
+        position: inherit;
+        width: 20rem;
+        z-index: inherit;
+    }
+}
+
+.rpv_86f3034f {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_bda34215 {
+    background-color: hsl(var(--rpv-muted) / 0.4);
+    padding: 0.25rem;
+}
+
+.rpv_81fd021e {
+    padding: 0.125rem;
+}
+
+.rpv_c6f30708 {
+    display: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.rpv_4ac5591 {
+    display: flex;
+    overflow: hidden;
+}
+
+.rpv_f36067c2 {
+    border-left: 1px solid hsl(var(--rpv-border));
+}
+
+.rpv_f3607e42 {
+    border-right: 1px solid hsl(var(--rpv-border));
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_d51a35ff {
+    /* Border */
+    border: 1px solid hsl(var(--rpv-border));
+    box-sizing: border-box;
+
+    /* Full size */
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_36f1a57b {
+    display: flex;
+    padding-top: 2.5rem;
+
+    /* Fix the scroll issue on Safari */
+    height: 100%;
+
+    /* Used to position the sidebar */
+    position: relative;
+}
+
+.rpv_e2a966ef {
+    direction: rtl;
+}
+
+.rpv_36ecd964 {
+    flex: 1;
+    overflow: auto;
+}
+
+.rpv_6d2cbc79 {
+    align-items: center;
+    background-color: hsl(var(--rpv-muted) / 0.4);
+    border-bottom: 1px solid hsl(var(--rpv-border));
+    color: hsl(var(--rpv-muted-foreground));
+    display: flex;
+
+    /* Postion */
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    /* Size */
+    height: 2.5rem;
+    width: 100%;
+
+    /* To make the tooltip displayed on top of the pages */
+    z-index: 1;
+}
+
+/* Include other plugins */
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_74ff328a {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    overflow: auto;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.rpv_d9b8b80 {
+    direction: rtl;
+}
+
+.rpv_74fdfcff {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: hsl(var(--rpv-foreground));
+    cursor: pointer;
+    display: flex;
+    padding: 0.5rem;
+    text-align: left;
+    width: 100%;
+
+    &:focus {
+        background-color: hsl(var(--rpv-accent));
+        color: hsl(var(--rpv-accent-foreground));
+        outline: 0;
+    }
+
+    &:hover {
+        background-color: hsl(var(--rpv-accent));
+        color: hsl(var(--rpv-accent-foreground));
+    }
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_a9033fd6 {
+    height: 100%;
+    overflow: auto;
+    padding: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.rpv_3122eab4 {
+    direction: rtl;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_fdd432ce {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_62cd0cf7 {
+    align-items: center;
+    color: hsl(var(--rpv-foreground));
+    cursor: pointer;
+    display: flex;
+    padding-bottom: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.25rem;
+
+    &:focus {
+        background-color: hsl(var(--rpv-accent));
+        outline: 0;
+    }
+
+    &:hover {
+        background-color: hsl(var(--rpv-accent));
+        color: hsl(var(--rpv-accent-foreground));
+    }
+}
+
+.rpv_f63d6438 {
+    /* Center the icon */
+    align-items: center;
+    display: flex;
+    height: 1rem;
+    margin-right: 0.25rem;
+    width: 1rem;
+}
+
+.rpv_f76accf4 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-decoration: none;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_9977cbd7 {
+    list-style-type: none;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_ebc43488 {
+    list-style-type: none;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_ebc2fefd {
+    align-items: center;
+    display: flex;
+    padding-bottom: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.25rem;
+}
+
+.rpv_197eecbe {
+    /* Center the icon */
+    align-items: center;
+    display: flex;
+    height: 1rem;
+    margin-right: 0.25rem;
+    width: 1rem;
+}
+
+.rpv_8d331bae {
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-decoration: none;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_151ef427 {
+    height: 100%;
+    overflow: auto;
+    padding: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.rpv_dd1f88c3 {
+    direction: rtl;
+}
+
+.rpv_2f6be5b {
+    height: 100%;
+    overflow: auto;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.rpv_e7d3220f {
+    direction: rtl;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_34a2d621 {
+    /* Center the canvas */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take the full size */
+    height: 100%;
+    width: 100%;
+
+    /* It's used when the cover is placed inside a `min-height` container */
+    min-height: inherit;
+}
+
+.rpv_6f09fae9 {
+    /* Center the spinner */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take the full size */
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_34f6d0c0 {
+    /* Center the spinner */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take the full size */
+    height: 100%;
+    width: 100%;
+
+    min-height: inherit;
+}
+
+.rpv_34f62bc5 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_87cfa5a9 {
+    align-items: center;
+    box-shadow:
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_fcb6421e {
+    overflow: auto;
+    padding: 0.5rem;
+}
+
+.rpv_5d99636c {
+    direction: rtl;
+}
+
+.rpv_43a01ce2 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.rpv_78f00fb4 {
+    height: 100%;
+}
+
+.rpv_8b9d9a73 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rpv_f5b5d58f:hover .rpv_db36b756,
+.rpv_c390af68:hover .rpv_db36b756 {
+    background-color: hsl(var(--rpv-accent));
+}
+
+.rpv_db36b756 {
+    cursor: pointer;
+    &:focus {
+        outline: 0;
+    }
+}
+
+/* Spacing between items */
+
+.rpv_806cf3e,
+.rpv_959661e5 {
+    padding: 0.5rem;
+}
+
+.rpv_702f252c,
+.rpv_a72b4d0a {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.rpv_f31a6edd,
+.rpv_3e3a0c9f {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+/* Hover state */
+
+.rpv_806cf3e:hover,
+.rpv_959661e5:hover {
+    background-color: hsl(var(--rpv-accent));
+}
+
+/* Selected state */
+
+.rpv_4a6d5811 {
+    background-color: hsl(var(--rpv-accent));
+}
+
+.rpv_8bc1cb11 {
+    font-size: 0.75em;
+    text-align: center;
+    padding: 0.25rem;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_16d088e5 {
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_3031ee2f {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_fa73c6a8 {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.rpv_66fc1aa2 {
+    direction: rtl;
+}
+
+.rpv_9116fbfa {
+    align-items: center;
+    display: flex;
+}
+
+.rpv_97eff788 {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+}
+
+.rpv_921ee489 {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}
+
+.rpv_9115d706 {
+    align-items: center;
+    display: flex;
+    padding: 0 0.125rem;
+}
+
+.rpv_91c6a161 {
+    color: hsl(var(--rpv-foreground));
+}
+
+/* Include other plugins */
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_603aaf14 {
+    bottom: 0;
+    padding: 0.5rem;
+    position: fixed;
+    z-index: 2;
+}
+
+.rpv_4d1d3436 {
+    right: 0;
+}
+
+.rpv_4d1d4ab6 {
+    left: 0;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_8f5c1bd3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    background-color: hsl(var(--rpv-background));
+    z-index: 1;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_46d1c694 {
+    position: relative;
+}
+
+.rpv_bee9d35d {
+    /* Hide it */
+    display: none;
+
+    bottom: 0;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+
+    /* Fix an issue where the button covers other elements on Safari */
+    &::-webkit-file-upload-button {
+        width: 0;
+    }
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_638e1576 {
+    margin: 0 0.25rem;
+    text-align: right;
+    width: 3rem;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_6708d99b {
+    padding: 1rem;
+}
+
+.rpv_cf113b54 {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem 1rem 0;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_ede6da6e {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.rpv_cf06dac3 {
+    background-color: hsl(var(--rpv-background));
+    border: 1px solid hsl(var(--rpv-border));
+    border-radius: var(--rpv-radius);
+    box-shadow:
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;
+    color: hsl(var(--rpv-foreground));
+    padding: 1.5rem;
+    text-align: center;
+    width: 15rem;
+}
+
+.rpv_eeaccca7 {
+    direction: rtl;
+}
+
+.rpv_9b3f42a0 {
+    margin-bottom: 1rem;
+}
+
+.rpv_ed452534 {
+    margin-bottom: 0.5rem;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+@media print {
+    @page {
+        margin: 0;
+    }
+
+    .rpv_3441ef3f {
+        /* Center the content */
+        align-items: center;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+
+        /* Take full size */
+        height: 100%;
+        width: 100%;
+
+        /* Misc */
+        page-break-after: always;
+        page-break-inside: avoid;
+    }
+
+    .rpv_539eb2ab {
+        display: block !important;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_ef75ad00 {
+    display: none;
+}
+
+@media print {
+    /* To make it work across browsers */
+    .rpv_1f5dd034 {
+        height: 100%;
+    }
+
+    .rpv_f9a11b2b {
+        height: 100%;
+        margin: 0;
+    }
+
+    .rpv_f9a11b2b * {
+        display: none;
+    }
+
+    .rpv_ef75ad00 {
+        display: block;
+        height: 100%;
+    }
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_1c26ac9a {
+    text-align: center;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_6ea31738 {
+    align-items: flex-start;
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.rpv_f50c4012 {
+    direction: rtl;
+}
+
+.rpv_65e1676f {
+    padding-right: 0.5rem;
+    width: 25%;
+}
+
+.rpv_666e79ec {
+    flex: 1;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_255a805a {
+    min-height: 20rem;
+    padding: 0.5rem 0;
+}
+
+.rpv_650b4d52 {
+    padding: 0 0.5rem;
+}
+
+.rpv_7a08e58e {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_5852b0f8 {
+    left: 0;
+    position: absolute;
+    top: 0;
+    /* Take the full size */
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_a802aadb {
+    background-color: hsl(var(--rpv-primary) / 0.4);
+    border-radius: calc(var(--rpv-radius) - 4px);
+    position: absolute;
+    /* Display on top of the text layer */
+    z-index: 1;
+}
+
+.rpv_bd8fce1e {
+    background-color: hsl(var(--rpv-highlight) / 0.4);
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_be1278b5 {
+    padding: 0 0.5rem;
+}
+
+.rpv_119fcec2 {
+    align-items: center;
+    display: flex;
+    margin-bottom: 0.5rem;
+    position: relative;
+    width: 12rem;
+}
+
+.rpv_ea7700c {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.rpv_4ee9303e {
+    padding-right: 0.25rem;
+    right: 0;
+}
+
+.rpv_4ee946be {
+    left: 0;
+    padding-left: 0.25rem;
+}
+
+.rpv_1a0edd04 {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.rpv_380e43b3 {
+    cursor: pointer;
+    margin-right: 0.25rem;
+}
+
+.rpv_1e5b198b {
+    align-items: center;
+    display: flex;
+}
+
+.rpv_e0f04b3e {
+    padding: 0 0.25rem;
+}
+
+.rpv_2013f20d {
+    margin-left: auto;
+}
+
+.rpv_2014088d {
+    margin-right: auto;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_548bac0a {
+    cursor: grab;
+}
+
+.rpv_548bac0a :not(input),
+.rpv_548bac0a :not(select),
+.rpv_548bac0a :not(textarea) {
+    cursor: grab !important;
+}
+
+.rpv_8f90bb4a {
+    cursor: grabbing;
+}
+
+.rpv_8f90bb4a :not(input),
+.rpv_8f90bb4a :not(select),
+.rpv_8f90bb4a :not(textarea) {
+    cursor: grabbing !important;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_97efec6c {
+    align-items: center;
+    display: flex;
+}
+
+.rpv_40d5565b {
+    margin-right: 0.25rem;
+}
+
+.rpv_40d56cdb {
+    margin-left: 0.25rem;
+}
+
+.rpv_3e2b1ce {
+    border-color: hsl(var(--rpv-muted-foreground)) transparent transparent;
+    border-style: solid;
+    border-width: 0.5rem 0.25rem 0;
+    height: 0;
+    width: 0;
+}

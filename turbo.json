@@ -9,6 +9,10 @@
             "cache": false,
             "dependsOn": ["^css"]
         },
+        "types": {
+            "cache": false,
+            "dependsOn": ["^types"]
+        },
         "release": {
             "dependsOn": ["^release"]
         },

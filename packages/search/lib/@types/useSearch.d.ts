@@ -1,0 +1,24 @@
+import { type Store } from '@react-pdf-viewer/core';
+import { type Match } from './types/Match';
+import { type SearchTargetPageFilter } from './types/SearchTargetPage';
+import { type SingleKeyword } from './types/SingleKeyword';
+import { type StoreProps } from './types/StoreProps';
+export declare const useSearch: (store: Store<StoreProps>) => {
+    clearKeyword(): void;
+    changeMatchCase(matchCase: boolean): void;
+    changeWholeWords(wholeWords: boolean): void;
+    currentMatch: number;
+    jumpToMatch(index: number): Match | null;
+    jumpToNextMatch(): Match | null;
+    jumpToPreviousMatch(): Match | null;
+    keywords: SingleKeyword[];
+    matchCase: boolean;
+    numberOfMatches: number;
+    wholeWords: boolean;
+    search(): Promise<Match[]>;
+    setKeywords(keyword: SingleKeyword[]): void;
+    searchFor(keyword: SingleKeyword[], matchCase?: boolean, wholeWords?: boolean): Promise<Match[]>;
+    setTargetPages(targetPageFilter: SearchTargetPageFilter): void;
+    keyword: string;
+    setKeyword(keyword: string): void;
+};

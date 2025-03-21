@@ -1,0 +1,132 @@
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_6708d99b {
+    padding: 1rem;
+}
+
+.rpv_cf113b54 {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem 1rem 0;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_ede6da6e {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.rpv_cf06dac3 {
+    background-color: hsl(var(--rpv-background));
+    border: 1px solid hsl(var(--rpv-border));
+    border-radius: var(--rpv-radius);
+    box-shadow:
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;
+    color: hsl(var(--rpv-foreground));
+    padding: 1.5rem;
+    text-align: center;
+    width: 15rem;
+}
+.rpv_eeaccca7 {
+    direction: rtl;
+}
+
+.rpv_9b3f42a0 {
+    margin-bottom: 1rem;
+}
+
+.rpv_ed452534 {
+    margin-bottom: 0.5rem;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+@media print {
+    @page {
+        margin: 0;
+    }
+
+    .rpv_3441ef3f {
+        /* Center the content */
+        align-items: center;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+
+        /* Take full size */
+        height: 100%;
+        width: 100%;
+
+        /* Misc */
+        page-break-after: always;
+        page-break-inside: avoid;
+    }
+
+    .rpv_539eb2ab {
+        display: block !important;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_ef75ad00 {
+    display: none;
+}
+
+@media print {
+    /* To make it work across browsers */
+    .rpv_1f5dd034 {
+        height: 100%;
+    }
+
+    .rpv_f9a11b2b {
+        height: 100%;
+        margin: 0;
+    }
+
+    .rpv_f9a11b2b * {
+        display: none;
+    }
+
+    .rpv_ef75ad00 {
+        display: block;
+        height: 100%;
+    }
+}

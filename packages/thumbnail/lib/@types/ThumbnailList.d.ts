@@ -1,0 +1,22 @@
+import { RotateDirection, ViewMode, type PdfJs } from '@react-pdf-viewer/core';
+import * as React from 'react';
+import { ThumbnailDirection } from './structs/ThumbnailDirection';
+import { type RenderCurrentPageLabel } from './types/RenderCurrentPageLabelProps';
+import { type RenderThumbnailItem } from './types/RenderThumbnailItemProps';
+export declare const ThumbnailList: React.FC<{
+    currentPage: number;
+    doc: PdfJs.PdfDocument;
+    labels: string[];
+    pagesRotation: Map<number, number>;
+    pageHeight: number;
+    pageWidth: number;
+    renderCurrentPageLabel?: RenderCurrentPageLabel;
+    renderThumbnailItem?: RenderThumbnailItem;
+    rotatedPage: number;
+    rotation: number;
+    thumbnailDirection: ThumbnailDirection;
+    thumbnailWidth: number;
+    viewMode: ViewMode;
+    onJumpToPage(pageIndex: number): void;
+    onRotatePage(pageIndex: number, direction: RotateDirection): void;
+}>;

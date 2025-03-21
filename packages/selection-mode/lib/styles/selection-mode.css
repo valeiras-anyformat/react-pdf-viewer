@@ -1,0 +1,25 @@
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_548bac0a {
+    cursor: grab;
+}
+.rpv_548bac0a :not(input),
+.rpv_548bac0a :not(select),
+.rpv_548bac0a :not(textarea) {
+    cursor: grab !important;
+}
+
+.rpv_8f90bb4a {
+    cursor: grabbing;
+}
+.rpv_8f90bb4a :not(input),
+.rpv_8f90bb4a :not(select),
+.rpv_8f90bb4a :not(textarea) {
+    cursor: grabbing !important;
+}

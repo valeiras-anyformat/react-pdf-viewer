@@ -11,7 +11,7 @@
 import { ScrollMode, ViewMode, type Store } from '@react-pdf-viewer/core';
 import * as React from 'react';
 import { SwitchScrollModeButton } from './SwitchScrollModeButton';
-import { switchScrollMode } from './switchScrollMode';
+import { switchScrollMode } from './switchScrollModeUtil';
 import { type RenderSwitchScrollModeProps } from './types/RenderSwitchScrollModeProps';
 import { type StoreProps } from './types/StoreProps';
 import { useScrollMode } from './useScrollMode';
@@ -22,13 +22,13 @@ type RenderSwitchScrollMode = (props: RenderSwitchScrollModeProps) => React.Reac
 export interface SwitchScrollModeProps {
     children?: RenderSwitchScrollMode;
     mode: ScrollMode;
+    store?: Store<StoreProps>;
 }
 
-export const SwitchScrollMode: React.FC<{
-    children?: RenderSwitchScrollMode;
-    mode: ScrollMode;
-    store: Store<StoreProps>;
-}> = ({ children, mode, store }) => {
+export const SwitchScrollMode = ({ children, mode, store }: SwitchScrollModeProps): React.ReactElement => {
+    if (!store) {
+        throw new Error('store is required');
+    }
     const { viewMode } = useViewMode(store);
     const { scrollMode } = useScrollMode(store);
 

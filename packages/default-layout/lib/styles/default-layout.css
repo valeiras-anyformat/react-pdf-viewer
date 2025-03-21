@@ -1,0 +1,137 @@
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_a85ddeb {
+    display: flex;
+    border-color: hsl(var(--rpv-border));
+}
+.rpv_306d3634 {
+    border-color: transparent;
+    /* Absolute position */
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    /* Size */
+    width: 12rem;
+
+    /* Display it on top of pages */
+    z-index: 1;
+}
+.rpv_903d01ff {
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+.rpv_903d187f {
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+@media (min-width: 768px) {
+    .rpv_306d3634 {
+        width: 16rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .rpv_306d3634 {
+        background: inherit;
+        position: inherit;
+        width: 20rem;
+        z-index: inherit;
+    }
+}
+
+.rpv_86f3034f {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_bda34215 {
+    background-color: hsl(var(--rpv-muted) / 0.4);
+    padding: 0.25rem;
+}
+
+.rpv_81fd021e {
+    padding: 0.125rem;
+}
+
+.rpv_c6f30708 {
+    display: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.rpv_4ac5591 {
+    display: flex;
+    overflow: hidden;
+}
+.rpv_f36067c2 {
+    border-left: 1px solid hsl(var(--rpv-border));
+}
+.rpv_f3607e42 {
+    border-right: 1px solid hsl(var(--rpv-border));
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_d51a35ff {
+    /* Border */
+    border: 1px solid hsl(var(--rpv-border));
+    box-sizing: border-box;
+
+    /* Full size */
+    height: 100%;
+    width: 100%;
+}
+
+.rpv_36f1a57b {
+    display: flex;
+    padding-top: 2.5rem;
+
+    /* Fix the scroll issue on Safari */
+    height: 100%;
+
+    /* Used to position the sidebar */
+    position: relative;
+}
+.rpv_e2a966ef {
+    direction: rtl;
+}
+
+.rpv_36ecd964 {
+    flex: 1;
+    overflow: auto;
+}
+
+.rpv_6d2cbc79 {
+    align-items: center;
+    background-color: hsl(var(--rpv-muted) / 0.4);
+    border-bottom: 1px solid hsl(var(--rpv-border));
+    color: hsl(var(--rpv-muted-foreground));
+    display: flex;
+
+    /* Postion */
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    /* Size */
+    height: 2.5rem;
+    width: 100%;
+
+    /* To make the tooltip displayed on top of the pages */
+    z-index: 1;
+}

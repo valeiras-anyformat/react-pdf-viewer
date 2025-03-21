@@ -1,0 +1,44 @@
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_603aaf14 {
+    bottom: 0;
+    padding: 0.5rem;
+    position: fixed;
+    z-index: 2;
+}
+.rpv_4d1d3436 {
+    right: 0;
+}
+.rpv_4d1d4ab6 {
+    left: 0;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_8f5c1bd3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    background-color: hsl(var(--rpv-background));
+    z-index: 1;
+}

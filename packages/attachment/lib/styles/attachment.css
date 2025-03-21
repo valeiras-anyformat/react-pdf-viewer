@@ -1,0 +1,80 @@
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_74ff328a {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    overflow: auto;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+.rpv_d9b8b80 {
+    direction: rtl;
+}
+
+.rpv_74fdfcff {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: hsl(var(--rpv-foreground));
+    cursor: pointer;
+    display: flex;
+    padding: 0.5rem;
+    text-align: left;
+    width: 100%;
+
+    &:focus {
+        background-color: hsl(var(--rpv-accent));
+        color: hsl(var(--rpv-accent-foreground));
+        outline: 0;
+    }
+
+    &:hover {
+        background-color: hsl(var(--rpv-accent));
+        color: hsl(var(--rpv-accent-foreground));
+    }
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_a9033fd6 {
+    height: 100%;
+    overflow: auto;
+    padding: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+}
+.rpv_3122eab4 {
+    direction: rtl;
+}
+
+/**
+ * A React component to view a PDF document
+ *
+ * @see https://react-pdf-viewer.dev
+ * @license https://react-pdf-viewer.dev/license
+ * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
+ */
+
+.rpv_fdd432ce {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}

@@ -23,9 +23,11 @@ import { SwitchScrollModeMenuItem } from './SwitchScrollModeMenuItem';
 import { SwitchViewMode, SwitchViewModeProps } from './SwitchViewMode';
 import { SwitchViewModeButton } from './SwitchViewModeButton';
 import { SwitchViewModeMenuItem } from './SwitchViewModeMenuItem';
-import { switchScrollMode } from './switchScrollMode';
-import { switchViewMode } from './switchViewMode';
+import { switchScrollMode } from './switchScrollModeUtil';
+import { switchViewMode } from './switchViewModeUtil';
 import { type StoreProps } from './types/StoreProps';
+import { type RenderSwitchScrollModeProps } from './types/RenderSwitchScrollModeProps';
+import { type RenderSwitchViewModeProps } from './types/RenderSwitchViewModeProps';
 
 export interface SwitchScrollModeButtonProps {
     mode: ScrollMode;
@@ -77,7 +79,7 @@ export const scrollModePlugin = (): ScrollModePlugin => {
 
     const SwitchScrollModeButtonDecorator = (props: SwitchScrollModeButtonProps) => (
         <SwitchScrollModeDecorator mode={props.mode}>
-            {(p) => (
+            {(p: RenderSwitchScrollModeProps) => (
                 <SwitchScrollModeButton
                     isDisabled={p.isDisabled}
                     isSelected={p.isSelected}
@@ -92,7 +94,7 @@ export const scrollModePlugin = (): ScrollModePlugin => {
 
     const SwitchScrollModeMenuItemDecorator = (props: SwitchScrollModeMenuItemProps) => (
         <SwitchScrollModeDecorator mode={props.mode}>
-            {(p) => (
+            {(p: RenderSwitchScrollModeProps) => (
                 <SwitchScrollModeMenuItem
                     isDisabled={p.isDisabled}
                     isSelected={p.isSelected}
@@ -111,7 +113,7 @@ export const scrollModePlugin = (): ScrollModePlugin => {
 
     const SwitchViewModeButtonDecorator = (props: SwitchViewModeButtonProps) => (
         <SwitchViewModeDecorator mode={props.mode}>
-            {(p) => (
+            {(p: RenderSwitchViewModeProps) => (
                 <SwitchViewModeButton
                     isDisabled={p.isDisabled}
                     isSelected={p.isSelected}
@@ -126,7 +128,7 @@ export const scrollModePlugin = (): ScrollModePlugin => {
 
     const SwitchViewModeMenuItemDecorator = (props: SwitchViewModeMenuItemProps) => (
         <SwitchViewModeDecorator mode={props.mode}>
-            {(p) => (
+            {(p: RenderSwitchViewModeProps) => (
                 <SwitchViewModeMenuItem
                     isDisabled={p.isDisabled}
                     isSelected={p.isSelected}
